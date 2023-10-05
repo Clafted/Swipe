@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d3f68c2d-a8cd-4b7d-b7d6-bf5f6ed82546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\OpenGLStuff\GLAD\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SwipeMain.cpp" />
+    <ClCompile Include="Source\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Shader.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SceneManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Spritesheet.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Atlas.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Clickable.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameLoop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Component.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PlayerController.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Hazard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Timer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collider.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Ram.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Map.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\SoundManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ManHole.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Spawnable.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\TileWarning.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\textureShader.fs" />
+    <None Include="Shaders\textureShader.vs" />
+    <None Include="x64\Debug\ikpMP3.dll" />
+    <None Include="x64\Debug\irrKlang.dll" />
+    <None Include="ikpMP3.dll" />
+    <None Include="irrKlang.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\TextureNotFound.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\MenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\StartButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\3x3_PlainMap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\PlainSpike.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\3x3_PlainMapTopLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\PlainManHoleSpritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\SingleTileWarning.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="SFX\GameMusic.mp3" />
+    <Media Include="SFX\PlainRamHum.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="SFX\PlainRamAttack.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="SFX\PlainRamReset.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="SFX\PlayerMove.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="SFX\SwipeTheme.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
